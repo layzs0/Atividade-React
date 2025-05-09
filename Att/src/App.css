@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+  max-width: 400px;
+  margin: 250px auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(128, 128, 128, 0.432);
+  border-radius: 5px;
+  
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('https://marketplace.canva.com/EAFITuOI0Fc/1/0/1600w/canva-papel-de-parede-minimalista-tons-pasteis-QCWwaunOtBw.jpg'); /* link da imagem */
+  background-size: cover;        
+  background-repeat: no-repeat;  
+  background-position: center;   
+  font-family: sans-serif;
+  height: 100vh;
+} 
+
+.logo {
+  width: 150px;   
+  height: auto;   
+  margin-bottom: 20px; 
+}
+
+input {
+  padding: 10px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 30px;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 30px 10px;
+  gap: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  background-color: rgba(0, 0, 255, 0.452);
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  cursor: pointer;   
+}
+
+button:hover {
+  background-color: #0056b3;        /* Cor de fundo ao passar o mouse (azul mais escuro) */
+  transform: scale(1.05);            /* Aumenta ligeiramente o tamanho do botão */
+}
+
+button:focus {
+  outline: none;                    /* Remove o contorno padrão ao clicar */
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);  /* Adiciona uma sombra azul ao redor */
+}
